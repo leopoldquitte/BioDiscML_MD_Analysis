@@ -9,3 +9,6 @@ Authors: Léopold Quitté, Mickael Leclercq, Julien Prunier, Marie-Pier
 Scott-Boyer, Gautier Moroy *, Arnaud Droit *
 
 This repository comprise a detailed worklfow of the research work performed, with each data and script used during the study.
+
+
+![WorkFlow](https://github.com/leopoldquitte/BioDiscML_MD_Analysis_Covid19/assets/62938699/39fb9cb8-06bf-4b80-af09-138d8446b92d)
