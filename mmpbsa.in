@@ -1,0 +1,9 @@
+&general
+startframe=1,endframe=10000,interval=10,strip_mask=:WAT:NA:CL,
+/
+&pb
+istrng=0.1, inp=2, radiopt=0, prbrad=1.4, indi=12,  
+/
+&decomp
+idecomp=1,
+/
