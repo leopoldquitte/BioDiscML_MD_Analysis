@@ -1,0 +1,29 @@
+source oldff/leaprc.ff14SB
+source leaprc.gaff
+source leaprc.water.tip3p
+
+mol = loadpdb MyFavouriteProt.pdb
+
+bond  mol.115.SG   mol.123.SG
+
+bond  mol.326.SG   mol.343.SG
+
+bond  mol.512.SG   mol.524.SG
+
+bond  mol.600.SG   mol.625.SG
+
+bond  mol.643.SG   mol.696.SG
+
+bond  mol.655.SG   mol.789.SG
+
+bond  mol.744.SG   mol.752.SG
+
+charge mol
+addIons2 mol CL 0
+addIons2 mol NA 0
+solvateBox mol TIP3PBOX 15
+
+
+saveAmberParm mol MyFavouriteProt_wat.prmtop MyFavouriteProt_wat.inpcrd
+
+quit
