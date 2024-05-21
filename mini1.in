@@ -1,0 +1,14 @@
+*************************************************************************
+*****************************    mini1.in   *****************************
+*************************************************************************
+Minimzing the system with 25 kcal/mol restraints on complex, 1000 steps 
+of steepest descent and 1000 of conjugated gradient
+ &cntrl
+   imin=1, ntx=1, irest=0, ntpr=50, ntf=1, ntb=1,
+   cut=9.0, nsnb=10, ntr=1, maxcyc=2000, ncyc=1000, ntmin=1,
+ &end
+Group input for DNA  and protein restraints: 25 kcal/mol.
+ 25.0
+RES 1 791
+END
+END
