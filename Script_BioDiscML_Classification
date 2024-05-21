@@ -1,0 +1,20 @@
+project=mdcov
+
+doClassification=true
+
+classificationClassName=variant
+
+trainFile=Classification_Dataset_Train.csv
+
+
+combineModels=false
+combinationRule=AVG
+bootstrapFolds=10
+coptimizers=AUC, MCC, FDR, BER, ACC
+maxNumberOfSelectedFeatures = 1000
+maxNumberOfFeaturesInModel = 100
+sampling=TRUE
+validationFile=Classification_Dataset_Test.csv
+
+
+#
