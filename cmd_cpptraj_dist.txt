@@ -1,0 +1,1 @@
+cpptraj -p md.prmtop -y md.nc -i dist_contact.in
