@@ -1,0 +1,26 @@
+project=mdCov
+
+
+doRegression=true
+
+regressionClassName=deltaE
+
+trainFile=dist_cont_1.csv
+
+
+combineModels=false
+combinationRule=AVG
+
+loocv=false
+bootstrapFolds=10
+coptimizers=AUC, MCC, FDR, BER, ACC
+roptimizers=CC, RMSE, MAE 
+maxNumberOfSelectedFeatures = 1000
+maxNumberOfFeaturesInModel = 50
+sampling=TRUE
+searchmodes=F,FB,B,BF,top1,top5,top10,top15,top20,top30,top40,top50,top75,top100,top200
+validationFile=dist_cont_2.csv
+
+numberOfBestModels=1
+numberOfBestModelsSortingMetric=AVG_CC
+#
