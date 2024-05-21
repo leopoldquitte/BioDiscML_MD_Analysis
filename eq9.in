@@ -1,0 +1,23 @@
+*************************************************************************
+*****************************    eq10.in     *****************************
+*************************************************************************
+Equilibrating the system with 5 kcal/mol restraints on complex, during 50ps, 
+at constant T= 300K & P= 1Atm and coupling = 0.2 
+ &cntrl
+    imin=0, ntx=1, ntpr=500, ntwr=500, ntwx=500, ntwe=500, 
+    nscm=5000,
+    ntf=2, ntc=2,
+    ntb=2, ntp=1, tautp=0.2, taup=0.2,temp0=310.0,
+    nstlim=25000, t=0.0, dt=0.002,
+    cut=9.0,
+    ntt=1,
+    ntr=1
+ &end
+Group input for complex restraints: 5 kcal/mol.
+ 5.0
+FIND
+* * M *
+SEARCH
+RES 1 791
+END 
+END  
