@@ -1,0 +1,17 @@
+*************************************************************************
+*****************************    mini4.in   *****************************
+*************************************************************************
+Minimzing the system with 5 kcal/mol restraints on complex, 500 steps 
+of steepest descent and 500 of conjugated gradient
+ &cntrl
+   imin=1, ntx=1, irest=0, ntpr=50, ntf=1, ntb=1,
+   cut=9.0, nsnb=10, ntr=1, maxcyc=1000, ncyc=500, ntmin=1,
+ &end
+BKB protein fixed
+5.0
+FIND
+* * M *
+SEARCH
+RES 1 791
+END
+END

@@ -1,0 +1,26 @@
+*************************************************************************
+*****************************    heat8.in   *****************************
+************************************************************************* 
+*** BECAREFULL THE GROUP INPUT FOR THE RESTRAINT IS BEFORE THE TITLE ****
+*************************************************************************
+*************************************************************************
+Heating the system with 25 kcal/mol restraints complex, V=const 
+ &cntrl
+    imin=0, ntx=1, ntpr=500, ntwr=500, ntwx=500, ntwe=500, 
+    nscm=5000,
+    ntf=2, ntc=2,
+    ntb=1, ntp=0,
+    nstlim=50000, t=0.0, dt=0.002,
+    cut=9.0,
+    tempi=100.0, ntt=1,
+    ntr=1, nmropt=1
+ &end
+Heating from 100 to 318 K
+ &wt type='TEMP0', istep1=0,    istep2=10000,  value1=100.0, value2=310.0,  &end
+ &wt type='TEMP0', istep1=10001, istep2=50000, value1=310.0, value2=310.0,  &end
+ &wt type='END',  &end
+Group input for SUC and protein restraints: 25 kcal/mol.
+25.0
+RES 1 791
+END
+END
