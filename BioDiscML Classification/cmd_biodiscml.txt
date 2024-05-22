@@ -1,1 +1,1 @@
-java -jar biodiscml.jar -config config.conf -train
+java -jar biodiscml.jar -config Script_BioDiscML_Classification.conf -train
