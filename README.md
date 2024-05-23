@@ -1,4 +1,4 @@
-# BioDiscML_MD_Analysis_Covid19
+# BioDiscML_MD_Analysis
 
 This repositories presents every data available for the reproductibility of the research work done in the scientific paper : 
 A machine learning approach to the identification of key residues
