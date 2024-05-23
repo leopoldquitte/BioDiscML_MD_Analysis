@@ -1,0 +1,8 @@
+This file describe the files and how to use them in the "BioDiscML Classification" folder
+
+- Classification_Dataset_Train.csv is an input exemple of the BioDiscML programm, it consists of the train set on wich the BioDiscML programm will train to produced classification models. 
+- Classification_Dataset_Test.csv is an input exemple of the BioDiscML programm, it consists of the test set on wich the BioDiscML programm will test the produced classification models.
+- classification.results.csv is an output exemple of the BioDiscML programm presenting the produced models and their performance metrics.
+- Script_BioDiscML_classification.conf is the script parameter file to run the BioDiscML classification programm.
+- cmd_biodiscml.txt is the command to run the BioDiscML Classifiction program.
+
